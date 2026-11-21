@@ -10,6 +10,6 @@ Bộ cài hỗ trợ chế độ Scrapling trên Windows 10/11 64-bit. Máy cầ
 
 [Xem bản phát hành và mã SHA-256](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/tag/v0.12.2-preview)
 
-[Tải extension Chrome thử 0.12.2 (.zip)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.2-preview/epub-viet-downloader-0.12.2-preview.zip)
+[Tải extension Chrome thử 0.12.2 (.zip)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.2-preview/epub-viet-downloader-0.12.2-warning-preview.zip)
 
 Bản 0.12.2 sửa hook khởi tạo Turnstile. Đã cài và thử tải mới đủ 3 chương đầu của cuốn qidian/1/1049887726, đồng thời kiểm tra EPUB. Trong bài kiểm tra riêng với hộp Cloudflare thật của trang, máy chủ trả success khi Turnstile tự xác minh. Hiệu quả của harvester với challenge khó hoặc yêu cầu bấm checkbox vẫn cần kiểm chứng.
