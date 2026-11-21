@@ -4,12 +4,12 @@ Bộ cài hỗ trợ chế độ Scrapling trên Windows 10/11 64-bit. Máy cầ
 
 ## Tải bộ cài
 
-**[Tải Scrapling Helper 0.12.1 cho Windows (.exe)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.1-preview/Scrapling-Helper-Setup-0.12.1.exe)**
+**[Tải Scrapling Helper 0.12.2 cho Windows (.exe)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.2-preview/Scrapling-Helper-Setup-0.12.2.exe)**
 
 Đây là bản thử chưa ký số, tương thích với bản Chrome thử nghiệm của Epub Việt Downloader. Sau khi cài, mở tiện ích, chọn **Scrapling tích hợp** và bấm **Kiểm tra bộ hỗ trợ**.
 
-[Xem bản phát hành và mã SHA-256](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/tag/v0.12.1-preview)
+[Xem bản phát hành và mã SHA-256](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/tag/v0.12.2-preview)
 
-[Tải extension Chrome thử 0.12.1 (.zip)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.1-preview/epub-viet-downloader-0.12.1-preview.zip)
+[Tải extension Chrome thử 0.12.2 (.zip)](https://github.com/NyanBUIDL/epub-viet-downloader-helper/releases/download/v0.12.2-preview/epub-viet-downloader-0.12.2-preview.zip)
 
-Bản 0.12.1 thích nghi luồng tạo widget và chuyển token của Lucrehulk với phiên Chrome và bộ giải sẵn có trong Scrapling Helper. Đã kiểm tra luồng bằng widget mô phỏng và Native Messaging của tệp chạy đóng gói. Khả năng xử lý Turnstile thực tế trên Sáng Tác Việt vẫn cần kiểm chứng.
+Bản 0.12.2 sửa hook khởi tạo Turnstile. Đã cài và thử tải mới đủ 3 chương đầu của cuốn qidian/1/1049887726, đồng thời kiểm tra EPUB. Trong bài kiểm tra riêng với hộp Cloudflare thật của trang, máy chủ trả success khi Turnstile tự xác minh. Hiệu quả của harvester với challenge khó hoặc yêu cầu bấm checkbox vẫn cần kiểm chứng.
